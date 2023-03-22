@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'auth123/index.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+</head>
+<body>
+    {% block body_block %}
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Thanks for visiting Exams</h1>
+            <p>Anyway we are feeling good for your coming</p>
+            <h2>Please Login Again:</h2>
+            <a href="/accounts/login" class="btn btn-primary btn-lg btn-success">Login</a>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>
